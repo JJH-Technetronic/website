@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap');
+
+:root {
+	--primary-color: #17A4EB;
+	--secondary-color: #FFB906;
+}
+
+body, html {
+	background-color: var(--secondary-color);
+	height: 100%;
+	display: grid;
+}
+
+main {
+	background-color: var(--primary-color);
+	margin: auto;
+	padding: 4em;
+	border-radius: 32px;
+	border: 16px solid #000;
+	display: grid;
+}
+
+#logo {
+	width: 25vw;
+	margin: 0 auto;
+}
+
+#title {
+	font-family: "Jaldi";
+	font-weight: 700;
+	font-size: 4em;
+	text-align: center;
+}
